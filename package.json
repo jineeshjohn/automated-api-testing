@@ -1,0 +1,30 @@
+{
+  "name": "automated-api-testing",
+  "version": "1.0.0",
+  "description": "Helps to run automated api",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --config ./jest.config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jineeshjohn/automated-api-testing.git"
+  },
+  "author": "jjohn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jineeshjohn/automated-api-testing/issues"
+  },
+  "homepage": "https://github.com/jineeshjohn/automated-api-testing#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "csv-parse": "^3.1.2",
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "json-server": "^0.14.0"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "tv4": "^1.3.0"
+  }
+}
